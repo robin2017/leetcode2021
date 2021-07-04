@@ -1,0 +1,29 @@
+##  JS数组的方法
+> https://www.cnblogs.com/zyfeng/p/10541133.html
+
+
++ join(sep:string):string  
+    - 拼接   
++ push(value:any):number
+    - 添加到数组末尾
++ pop():any
+    - 移除最后一项
++ shift():any
+    - 移除第一项(pop相反)
++ unshift(value:any):number
+    - 添加到数组头部(push相反)
++ sort():void
+    - 排序
++ reverse():void
+    - 反转
++ concat(value:any):any[]
+    - 连接并返回副本(类似[...])
++ slice(index1:number,index2?:number):any[]
+    - 返回截取数组
++ splice(start:number,num:number,...value:any):any[]
+    - 增删（具体见demo）
++ indexOf(value:any,start?:index):number
+    - 查找某一个元素下标
+    - **第二个参数可以减少运算复杂度**
++ indexOf(value:any,start?:index):number
+    - 查找某一个元素小标
