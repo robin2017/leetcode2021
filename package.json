@@ -21,7 +21,8 @@
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
     "lint": "npm run eslint && npm run stylelint",
     "push": "git add . && git commit -m \"auto save\" && git push",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "mydeploy":"npm run push && npm run build && git checkout . && npm run deploy"
   },
   "homepage": "https://robin2017.github.io/leetcode2021",
   "keywords": [
