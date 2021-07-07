@@ -8,3 +8,8 @@ export function t58_lengthOfLastWord(s: string): number {
   if (a[0] === undefined) return 0;
   return a[0].length;
 }
+
+//https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/submissions/
+export function to5_replaceSpace(s: string): string {
+  return s.replace(/\s/g,'%20')
+};
